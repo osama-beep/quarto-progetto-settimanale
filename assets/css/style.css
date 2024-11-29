@@ -1,21 +1,28 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
+
 header {
+    padding: 10px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    background-color: #FFC017;
 }
 
 #logo {
     width: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: auto;
+    padding: 10px;
+    margin-left: 160px;
 }
 
 nav {
+    font-size: 12px;
+    margin-right: 160px;
     display: flex;
     align-items: center;
 }
@@ -28,17 +35,364 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin-left: 20px;
+    
 }
 
-nav ul li:last-child {
-    margin-right: 0;
+nav ul li:first-child {
+    margin-left: 0;
 }
 
 nav a {
     text-decoration: none;
     color: black;
 }
+
+button {
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 24px;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+}
+
+hr {
+    margin: 0px 0;
+    border: 1px solid black;
+}
+
+section {
+    background-color: #FFC017;
+    position: relative;
+    overflow: hidden;
+    height: 300px; 
+}
+
+h1 {
+    color: black;
+    font-size: 64px;
+    font-family: Spectral;
+}
+
+#mainP {
+    color: black;
+    padding-top: 10px;
+    
+}
+
+#startReading {
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+#mainSection {
+    margin-left: 175px;
+    padding-top: 70px;
+}
+
+
+#m {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    max-width: 40%;
+    height: auto;
+    z-index: 1;
+}
+
+#mainHr {
+    margin: 0;
+    border: 1px solid black;
+    position: relative;
+    z-index: 2;
+}
+
+#newsSection {
+    background-color: white;
+}
+
+#trendingMedium {
+    display: flex;
+    margin-left:160px;
+    margin-top: 20px;
+}
+
+#trendingMedium p {
+    font-size: 12px;
+    padding: 9px;
+    font-weight: bold;
+}
+
+#newsContainer ol {
+    margin: 0 60px 0 60px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    gap: 20px;
+    width: calc(100% - 180px); 
+    max-width: 1200px; 
+}
+
+#newsContainer li {
+    flex-basis: calc(33.33% - 14px);
+    margin-bottom: 20px;
+    min-width: 0; 
+}
+
+.news-item {
+    margin-left: 100px;
+    margin-right: -70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.news-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #E6E6E6;
+    margin-right: 15px;
+    flex-shrink: 0; 
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    min-width: 0; 
+}
+
+.author-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0; 
+}
+
+.author-name {
+    font-weight: 500;
+    font-size: 10px;
+    color: #292929;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.news-content {
+    margin-left: 47px;
+    min-width: 0; 
+}
+
+.news-text h3 {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-span {
+    font-size: 10px;
+    color: #757575;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+}
+
+.news-text2 h3 {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-text3 h3 {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-text4 h3 {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-text5 h3 {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-text6 h3 {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#star {
+    position: absolute;
+    padding-left: 5px;
+}
+
+#thirdHr{
+    margin: 0;
+    border: 1px solid rgba(80, 80, 80, 0.096);
+}
+
+.newsPt2 {
+    background-color: white;
+    margin: 0 60px 0 60px;
+}
+
+.newsPt2 ul {
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 100px; 
+    gap: 20px;
+    max-width: 1200px;
+    
+}
+
+
+.newsPt2 li {
+    flex-basis: calc(50% - 14px);
+    margin-bottom: 20px;
+    min-width: 0;
+    padding-top: 85px;
+}
+
+.newsItemPt2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsHeaderPt2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.authorInfoPt2 {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+}
+
+.authorInfoPt2 img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.authorNamePt2 {
+    font-weight: 500;
+    font-size: 10px;
+    color: #292929;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsContentPt2 {
+    margin-left: 0;
+    min-width: 0;
+}
+
+.contentSpanPt2 {
+    font-size: 10px;
+    color: #757575;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsTextPt2 h3 {
+    margin: 0;
+    margin-bottom: 2px; 
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsSpanPt2 {
+    font-size: 10px;
+    color: #757575;
+    margin-top: -40px; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+#starPt2 {
+    padding-left: 5px;
+    display: inline-block; 
+    vertical-align: middle;
+    margin-top: -40px; 
+}
+
+.bigImg {
+    width: 200px;
+    left: 30%;
+    float: center;
+    position: relative;
+    margin-top: -90px;
+
+}
+
+
+
+
+
+
 
 
 
