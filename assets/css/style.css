@@ -285,6 +285,7 @@ h1 {
 .newsPt2 {
     background-color: white;
     margin: 0 60px 0 60px;
+    height: auto;
 }
 
 .newsPt2 ul {
@@ -298,6 +299,7 @@ h1 {
     gap: 20px;
     max-width: 1200px;
     
+    
 }
 
 
@@ -305,18 +307,20 @@ h1 {
     flex-basis: calc(50% - 14px);
     margin-bottom: 20px;
     min-width: 0;
-    padding-top: 85px;
+    
 }
 
-.newsItemPt2 {
+.newsItemPt2n2 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .newsHeaderPt2 {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    padding-top: 85px;
 }
 
 .authorInfoPt2 {
@@ -376,7 +380,7 @@ h1 {
     padding-left: 5px;
     display: inline-block; 
     vertical-align: middle;
-    margin-top: -40px; 
+    margin-top: -30px; 
 }
 
 .bigImg {
@@ -387,6 +391,109 @@ h1 {
     margin-top: -90px;
 
 }
+
+.newsPt2 li {
+    flex-basis: calc(50% - 14px);
+    margin-bottom: 20px;
+    min-width: 0;
+    color: black;
+    
+}
+
+.newsItemPt2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsHeaderPt2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 85px;
+}
+
+.authorInfoPt2 {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+}
+
+.authorInfoPt2 img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.authorNamePt2 {
+    font-weight: 500;
+    font-size: 10px;
+    color: #292929;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsContentPt2 {
+    margin-left: 0;
+    min-width: 0;
+}
+
+.contentSpanPt2 {
+    font-size: 10px;
+    color: #757575;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsTextPt2 h3 {
+    margin: 0;
+    margin-bottom: 2px; 
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsSpanPt2 {
+    font-size: 10px;
+    color: #757575;
+    margin-top: -40px; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.bookmark   {
+    position: relative;
+    margin-left: 60px;
+}
+
+.bigImg18 {
+    width: 200px;
+    left: 27.5%;
+    float: center;
+    position: relative;
+    margin-top: -90px;
+}
+
+.bookmark18 {
+    position: relative;
+    margin-left: 30px;
+}
+
+#buttonNewsContent1 {
+    margin-left: 2px;
+    font-size: 10px;
+    color:black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    background-color: #F2F3F3;
+}
+
 
 
 
